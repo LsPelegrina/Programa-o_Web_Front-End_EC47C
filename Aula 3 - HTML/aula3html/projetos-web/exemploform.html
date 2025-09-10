@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nome completo:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" min="18" max="120" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Insira um e-mail válido!"><br><br>
+        <label for="ContMaiorInt">Conteúdo de maior interesse:</label><br>
+        <select id="ContMaiorInt" name="ContMaiorInt" >
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript" selected>JavaScript</option>
+        </select><br><br>
+        <label for="Deixesuaopinião">Deixe sua opinião:</label><br>
+        <textarea id="Deixesuaopinião" name="Deixesuaopinião" rows="5" cols="30"></textarea><br><br>
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password" required><br><br><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
